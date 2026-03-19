@@ -97,7 +97,7 @@ export default function DashboardPage() {
           <StatCard n={withCasualties.length} label="עם נפגעים" color="#a78bfa" />
           <StatCard n={noUnit.length} label="ללא כוח מוקצה" color="#f97316" />
           <StatCard n={longOpen.length} label="פתוחים >30 דקות" color="#fac775" />
-          <StatCard n={reports.length} label="סה\"כ היום" color="#60a5fa" />
+          <StatCard n={reports.length} label="סה׳׳כ היום" color="#60a5fa" />
         </div>
 
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14, marginBottom: 14 }}>
